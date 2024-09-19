@@ -1,0 +1,39 @@
+/* Define o fundo como preto e o texto como branco para todos os elementos */
+* {
+  background-color: #000 !important;
+  color: #fff !important;
+  border-color: #444 !important;
+}
+
+/* Ajusta links para uma cor azul */
+a, a:visited {
+  color: #3399ff !important;
+}
+
+/* Ajusta botões e elementos de formulário */
+input, textarea, select, button {
+  background-color: #222 !important;
+  color: #fff !important;
+  border: 1px solid #555 !important;
+}
+
+/* Remove sombras de texto e caixa */
+* {
+  text-shadow: none !important;
+  box-shadow: none !important;
+}
+
+/* Ajusta as imagens para exibir corretamente */
+img, video, iframe {
+  filter: brightness(0.9) !important;
+}
+
+/* Ajusta espaços em branco */
+body, html {
+  background-color: #000 !important;
+}
+
+/* Placeholder em inputs */
+::placeholder {
+  color: #aaa !important;
+}

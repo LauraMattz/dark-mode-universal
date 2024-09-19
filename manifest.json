@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Modo Escuro Universal",
+  "version": "1.0",
+  "description": "Aplica um tema escuro a todas as páginas da web.",
+  "icons": {
+    "16": "icons/icon16.png"
+  },
+  "permissions": [
+    "tabs",
+    "scripting",
+    "activeTab"
+  ],
+  "action": {
+    "default_title": "Ativar/Desativar Modo Escuro"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
